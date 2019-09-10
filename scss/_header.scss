@@ -1,0 +1,31 @@
+// Header top
+.header-top {
+  padding-top: 15vh;
+}
+
+// Titulo Logo
+.header-logo {
+  font-family: $font-secondary;
+  font-size: 4rem;
+  padding: 1.4rem 0;
+
+  span {
+    color: $secondary-color;
+  }
+
+  // linhas
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: $primary-color;
+    margin: 1.4rem auto;
+  }
+}
+
+// Parafrafos
+.header-sub {
+  font-style: italic;
+}

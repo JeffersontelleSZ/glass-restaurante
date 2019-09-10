@@ -1,0 +1,14 @@
+{
+  "name": "glass_restaurante",
+  "version": "1.0.0",
+  "description": "Website profissional",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Jefferson T",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

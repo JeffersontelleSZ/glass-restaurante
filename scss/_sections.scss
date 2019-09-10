@@ -1,0 +1,19 @@
+// Section one
+.section-one {
+  height: 600px;
+  background: url(../img/content-one.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+
+  // Content
+  &-content {
+    margin-top: 4rem;
+    margin-right: 2rem;
+
+    .line {
+      width: 80px;
+      margin: auto;
+      background: $secondary-color;
+    }
+  }
+}

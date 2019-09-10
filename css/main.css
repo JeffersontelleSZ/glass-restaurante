@@ -1,0 +1,64 @@
+.header-top {
+  padding-top: 15vh; }
+
+.header-logo {
+  font-family: "Kaushan Script", cursive;
+  font-size: 4rem;
+  padding: 1.4rem 0; }
+  .header-logo span {
+    color: #40af58; }
+  .header-logo::before, .header-logo::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #333;
+    margin: 1.4rem auto; }
+
+.header-sub {
+  font-style: italic; }
+
+.heading-lg {
+  font-family: "Kaushan Script", cursive;
+  font-size: 4rem; }
+
+.heading-italic {
+  font-style: italic;
+  font-weight: 700; }
+
+.subtitle {
+  margin-top: 2rem;
+  font-weight: 400; }
+
+.navbar {
+  margin-top: 2rem; }
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin: 0 2rem; }
+
+.section-one {
+  height: 600px;
+  background: url(../img/content-one.jpg);
+  background-position: right top;
+  background-repeat: no-repeat; }
+  .section-one-content {
+    margin-top: 4rem;
+    margin-right: 2rem; }
+    .section-one-content .line {
+      width: 80px;
+      margin: auto;
+      background: #40af58; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 90%;
+  line-height: 1.6;
+  height: 10000px; }

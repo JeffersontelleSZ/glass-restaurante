@@ -1,0 +1,28 @@
+// Colors
+$primary-color: #333;
+$secondary-color: rgb(64, 175, 88);
+
+// Fonts
+$font-primary: "Open Sans", sans-serif;
+$font-secondary: "Kaushan Script", cursive;
+
+// Imports
+@import "./header";
+@import "./heading";
+@import "./navbar";
+@import "./sections";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  font-size: 90%;
+  line-height: 1.6;
+  height: 10000px;
+}
